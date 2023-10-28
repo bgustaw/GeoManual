@@ -1,0 +1,86 @@
+.header {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+.textArea {
+    font-size: 1.5em;
+    margin-block: 1rem;
+}
+
+.bodyStyle {
+    background-color: #F4F6F9;
+}
+
+.navy {
+    color:#244672
+    ;
+}
+
+p.myFooter {
+    font-size: 1.2em;
+    margin:1rem
+}
+
+strong {
+    color:#244672
+}
+
+figure.margined {
+    margin-block: revert;
+}
+
+.menuMargined {
+    margin-block: 1.75rem;
+    margin-left: 1.75rem;
+    margin-right:0.25rem;
+}
+
+.contentMargined {
+    margin: 1.75rem;
+}
+
+.sticky {
+    position: sticky; /* Set the navbar to fixed position */
+    top: 1.75rem;
+  }
+
+.fixed2 {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    overflow: hidden;
+ }
+
+a.navyHover:hover {
+    border-left: 3px solid #244672d4;
+}
+
+.hidden {
+    display: none
+}
+
+.centered {
+    text-align: center;
+}
+
+#mobileMenu {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #b7bfc2;
+}
+
+.bottomBorder {
+    padding-bottom: 10px;
+    border-bottom: 4px solid #F4F6F9;
+}
+
+#mobileNav {
+    padding-top: 2rem;
+    margin-inline: 1.25rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #F4F6F9;
+}
