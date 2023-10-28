@@ -21,11 +21,9 @@ $('#mobileTrigger').click(function() {
 function responsiveSize() {
   if ($(window).width() < 769) {
     $('#columnSideMenu').hide();
-    console.log('w trakcie show')
     $('#mobileNav').show();
   } else {
     $('#mobileNav').hide();
-    console.log('w trakcie hide')
     $('#columnSideMenu').show();
   }
 }
@@ -38,6 +36,3 @@ $(window).resize(function() {
     resizeId = setTimeout(responsiveSize, 500);
 });
 
-window.addEventListener("resize", function() {
-  console.log('resize')
-})
